@@ -22,7 +22,7 @@ app.add_middleware(
     CORSMiddleware,
     allow_origins=[
         "http://localhost:3000",
-        "https://*.vercel.app",
+        "https://frontend-2vbuc4zk1-hibharanis-projects.vercel.app",
         "https://frontend-nr8et587u-hibharanis-projects.vercel.app"
     ],
     allow_credentials=True,
